@@ -57,6 +57,10 @@ div.search-by-gender-header > ul li  {
     padding-right: 10px;
   }
 
+main .container {
+  max-width: 100%;
+}
+
 .row {
   display: flex;
   justify-content: center;
@@ -93,6 +97,9 @@ header {
 }
 
     /* MAIN */
+main {
+  margin-bottom: 50px;
+}
 main .row {
   gap: 2rem;
 }
@@ -147,7 +154,6 @@ main .row {
   right: 140px;
 }
 
-
 .card .card-heart {
   background-color: white;
   font-size: 24px;
@@ -173,3 +179,43 @@ main .row {
   text-decoration: line-through;
 }
    /* FOOTER */
+footer {
+  height: 80px;
+  background-color: #2a2626;
+  font-size: small;
+}
+footer,
+.privacy-policy-footer li {
+  color: white;
+}
+
+footer .row {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.privacy-policy-footer li,
+.icon-footer i {
+  display: inline-block;
+}
+
+.privacy-policy-footer a {
+  color: white;
+}
+
+.icon-footer i {
+  color: #000000;
+  background-color: white;
+}
+
+h4,
+.icon-footer {
+  text-align: center;
+}
+
+.icon-footer,
+.privacy-policy-footer {
+  padding-top: 10px;
+}
+
