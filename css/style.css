@@ -27,6 +27,10 @@ header li > i * {
   color: #ffffff;
 }
 
+main i * {
+  color: #000000;
+}
+
 div.user-header > ul li  {
   margin: 0 5px;
 }
@@ -59,11 +63,15 @@ div.search-by-gender-header > ul li  {
   align-items: center;
 }
 
+.page-content .row {
+  flex-wrap: wrap;
+}
 
     /* HEADER */
 header {
   background-color: rgb(255, 72, 0);
   color: white;
+  margin-bottom: 50px;
 }
 .navbar-header li {
   display: inline-block;
@@ -84,18 +92,13 @@ header {
   margin-right: 100px;
 }
 
-.user-header {
-
-}
-
-
     /* MAIN */
 main .row {
   gap: 2rem;
 }
 
 .card {
-  width: calc(100% / 3);
+  width: calc(100% / 4);
   position: relative;
 }
 
@@ -114,27 +117,59 @@ main .row {
 }
 
 .card .card-discount-badge,
-.card .card-sostenibilità {
+.card .card-sostenibilità,
+.card .card-heart {
   position: absolute;
 }
 
 .card .card-discount-badge {
   background-color: red;
-  bottom: 20px;
-  right: 300px;
+  font-weight: bold;
   color: white;
+  bottom: 70px;
+  right: 200px;
   padding: 5px 10px;
   z-index: 1;
 }
 
 .card .card-sostenibilità {
   background-color: green;
-  top: 20;
-  right: 190px;
-  bottom: 20px;
   color: white;
+  font-weight: bold;
+  right: 75px;
+  bottom: 70px;
   padding: 5px 10px;
   z-index: 1;
 }
 
-    /* FOOTER */
+.page-content .card:last-child .card-sostenibilità {
+  bottom: 70px;
+  right: 140px;
+}
+
+
+.card .card-heart {
+  background-color: white;
+  font-size: 24px;
+  right: 0px;
+  bottom: 400px;
+  padding: 5px 10px;
+  z-index: 1;
+}
+
+#marca-card {
+  font-size: 12px;
+}
+
+#tipologia-card {
+  font-size: 16px;
+}
+
+.card-description #prezzo-card {
+  color: red;
+}
+.card-description p > span  {
+  color: black;
+  text-decoration: line-through;
+}
+   /* FOOTER */
