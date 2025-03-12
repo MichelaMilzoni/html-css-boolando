@@ -142,7 +142,7 @@ main .row {
   background-color: red;
   font-weight: bold;
   color: white;
-  bottom: 70px;
+  bottom: 75px;
   right: 275px;
   padding: 5px 10px;
   z-index: 1;
@@ -153,14 +153,14 @@ main .row {
   color: white;
   font-weight: bold;
   right: 155px;
-  bottom: 70px;
+  bottom: 75px;
   padding: 5px 10px;
   z-index: 1;
 }
 
 .page-content .card:last-child .card-sostenibilità {
-  bottom: 70px;
-  right: 275px;
+  bottom: 75px;
+  right: 217px;
 }
 
 .card .card-heart {
@@ -187,6 +187,15 @@ main .row {
   color: black;
   text-decoration: line-through;
 }
+
+.card a {
+  color: gray;
+}
+
+.card a:active {
+  color: blue;
+}
+
    /* FOOTER */
 footer {
   height: 80px;
